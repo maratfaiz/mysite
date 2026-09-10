@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors — Osmo (styles.refero.design) */
+  --color-concrete: #f4f4f4;
+  --color-ash-gray: #eaeaea;
+  --color-bone: #e1e1e1;
+  --color-smoke: #b8b8b8;
+  --color-graphite: #4f4c4c;
+  --color-steel: #7a7a7a;
+  --color-charcoal: #312e2e;
+  --color-ink: #201d1d;
+  --color-obsidian: #151313;
+  --color-volt: #a1ff62;
+  --color-ultraviolet: #6840ff;
+  --color-vermillion: #f84131;
+
+  /* Fonts */
+  --font-haffer-vf: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-haffer-xh: var(--font-anton), ui-sans-serif, system-ui, sans-serif;
+  --font-haffer-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-brisa-pro: var(--font-caveat), cursive;
+
+  /* Type scale — size + line-height + tracking paired for each `text-*` utility */
+  --text-mono-label: 11px;
+  --text-mono-label--line-height: 1;
+
+  --text-caption: 13px;
+  --text-caption--line-height: 1.54;
+  --text-caption--letter-spacing: -0.09px;
+
+  --text-body-sm: 16px;
+  --text-body-sm--line-height: 1.3;
+  --text-body-sm--letter-spacing: -0.16px;
+
+  --text-body: 19px;
+  --text-body--line-height: 1.25;
+  --text-body--letter-spacing: -0.38px;
+
+  --text-annotation: 25px;
+  --text-annotation--line-height: 0.8;
+
+  --text-subheading: 48px;
+  --text-subheading--line-height: 1.05;
+  --text-subheading--letter-spacing: -1.44px;
+
+  --text-heading-sm: 64px;
+  --text-heading-sm--line-height: 1;
+  --text-heading-sm--letter-spacing: -1.92px;
+
+  --text-heading: 80px;
+  --text-heading--line-height: 0.95;
+  --text-heading--letter-spacing: -4px;
+
+  --text-heading-lg: 112px;
+  --text-heading-lg--line-height: 0.9;
+  --text-heading-lg--letter-spacing: -5.6px;
+
+  --text-display: 150px;
+  --text-display--line-height: 0.85;
+  --text-display--letter-spacing: -9px;
+
+  /* Spacing scale (compact, replaces Tailwind's default multiplier scale) */
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-7: 7px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-30: 30px;
+  --spacing-40: 40px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+
+  /* Border radius */
+  --radius-sharp-tiles: 2px;
+  --radius-cards: 5px;
+  --radius-inputs: 5px;
+  --radius-links-pill: 48px;
+  --radius-icons: 160px;
+  --radius-badges: 1600px;
+  --radius-buttons: 1600px;
+}
+
+body {
+  background: var(--color-concrete);
+  color: var(--color-ink);
+  font-family: var(--font-haffer-vf);
+}
