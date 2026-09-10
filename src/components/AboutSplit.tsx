@@ -6,17 +6,17 @@ export function AboutSplit() {
       <div>
         <h2 className="font-haffer-xh text-subheading text-ink">About</h2>
         <p className="mt-16 text-body text-graphite">
-          I care about the boring parts most people skip: clear error
-          messages, fast feedback loops, and code that a stranger — or future
-          me — can pick up without a walkthrough. I&apos;ve spent the last
-          few years moving between backend systems and the tools that
-          surround them, with a growing focus on building with and for AI
-          agents.
+          I care about the details most people skip past: type rhythm,
+          spacing that actually breathes, and interactions that feel
+          intentional rather than default. I&apos;ve spent the last few
+          years designing marketing sites, design systems, and the odd web
+          app — moving fluidly between Figma and code so nothing gets lost
+          in translation.
         </p>
       </div>
       <div className="rounded-cards border border-charcoal bg-ash-gray p-16">
         <p className="mb-16 font-haffer-mono text-mono-label uppercase text-steel">
-          Stack
+          Toolkit
         </p>
         <div className="flex flex-wrap gap-8">
           {skills.map((skill) => (

@@ -1,9 +1,9 @@
 const labels = [
   "OPEN TO FREELANCE",
-  "AI TOOLING",
-  "TYPESCRIPT",
-  "SYSTEMS DESIGN",
-  "DEVELOPER EXPERIENCE",
+  "DESIGN SYSTEMS",
+  "TYPOGRAPHY",
+  "WEBFLOW",
+  "INTERACTION DESIGN",
 ];
 
 export function TagStrip() {

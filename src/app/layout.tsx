@@ -27,8 +27,8 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Marat — Software Engineer",
-  description: "Personal site and portfolio of Marat.",
+  title: "Marat — Web Designer",
+  description: "Personal site and portfolio of Marat, a web designer.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
